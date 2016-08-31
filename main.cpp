@@ -9,10 +9,6 @@
 int main() {
     using namespace std;
 
-    char userInput[1];
-
-    cin >> setw(2) >> userInput;
-
-    ConsoleWriter consoleWriter;
-    consoleWriter.printPrettify(userInput);
+    Deck21 deck;
+    cout << deck.getCard();
 }
